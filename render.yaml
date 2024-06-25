@@ -6,10 +6,6 @@ services:
   - key: RABBITMQ_ERLANG_COOKIE
     generateValue: true
   - key: RABBITMQ_DEFAULT_USER
-    value: rabbitmq
+    value: six
   - key: RABBITMQ_DEFAULT_PASS
-    generateValue: true
-  disk:
-    name: rabbitmq
-    mountPath: /var/lib/rabbitmq
-    sizeGB: 10
+    generateValue: 420blazeit
